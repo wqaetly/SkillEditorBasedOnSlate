@@ -18,6 +18,9 @@
 
 ```csharp
 public class ActionClipInspector : OdinEditor
+
+[CustomEditor(typeof(Cutscene), true)]
+public class CutsceneInspector : OdinEditor
 ```
 
 由于我们为了分离数据运行时逻辑，采用了较为复杂的引用和层级关系，所以需要借助Odin的序列化，也就需要更改Slate ActionClip的继承对象为SerializedMonoBehaviour
