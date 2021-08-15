@@ -18,9 +18,9 @@ namespace NKGSlate.Runtime
         {
             this.DirectableData = stDirectableData;
             StartFrame =
-                ST_TimeToFrameCaculator.CaculateFrameCountFromTimeLength(this.DirectableData.RelativelyStartTime);
+                currentFrame + ST_TimeToFrameCaculator.CaculateFrameCountFromTimeLength(this.DirectableData.RelativelyStartTime);
             EndFrame =
-                ST_TimeToFrameCaculator.CaculateFrameCountFromTimeLength(this.DirectableData.RelativelyEndTime);
+                currentFrame + ST_TimeToFrameCaculator.CaculateFrameCountFromTimeLength(this.DirectableData.RelativelyEndTime);
             return OnInitialize();
         }
 

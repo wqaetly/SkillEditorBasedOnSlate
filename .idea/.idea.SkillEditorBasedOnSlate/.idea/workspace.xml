@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dd654d8a-9b3b-407b-ad56-21e49dc53d14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,10 @@
       <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83DC95E0-FA46-4D27-B100-E7976BE3EF6E/44/9648c64a/OdinEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" />
       <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlXpmMAlMnMtSAUYZbVSjLGFcK" />
@@ -96,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629034337506</updated>
-      <workItem from="1629034341127" duration="6235000" />
+      <workItem from="1629034341127" duration="7565000" />
     </task>
     <servers />
   </component>
