@@ -2,7 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd654d8a-9b3b-407b-ad56-21e49dc53d14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_AParadoxNotionSlateActionBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_AParadoxNotionSlateActionBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_ParadoxNotionTrack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_ParadoxNotionTrack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_ActionData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_ActionData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_CutSceneData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_CutSceneData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_DirectableData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_DirectableData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_GroupData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_GroupData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_TrackData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Datas/Base/ST_TrackData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Action.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Action.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_CutScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_CutScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Director.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Director.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_EndTimePoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_EndTimePoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Group.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_StartTimePoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_StartTimePoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Track.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Track.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Interfaces/ST_IDirectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Interfaces/ST_IDirectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Interfaces/ST_ITimePointer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Interfaces/ST_ITimePointer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Utilities/ST_TimeToFrameCaculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Utilities/ST_TimeToFrameCaculator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/Sample.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime/Actions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime/Actions/ST_LogAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime/Actions/ST_LogAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime/Actions/ST_LogActionData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/Runtime/Actions/ST_LogActionData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sample/Sample/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SlateActionExtend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SlateActionExtend/ST_ParadoxNotionLogAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SlateActionExtend/ST_ParadoxNotionLogAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SlateEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sample/Sample/SlateEntry.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +71,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Unity/2020.3.12f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Util/ExceptionUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Undo/UndoExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity/2020.3.12f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Canvas/NoActiveCameraInSceneDoesNotCrashEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalEmitterInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs" />
       <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_AParadoxNotionSlateActionBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Runtime/Core/Systems/Base/ST_Director.cs" />
+      <option value="$PROJECT_DIR$/Assets/Sample/Sample/SlateEntry.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/ParadoxNotionSlateExtension/Core/ST_ParadoxNotionCutScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Samples/ST_ParadoxNotionLogAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Editor/ST_ParadoxNotionCutSceneEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Slate/Runtime/Framework/Cutscene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/Slate/Editor/Design/Inspectors/CutsceneInspector.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Datas/Base/ST_DirectableData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/ActionClipInspector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Framework/ActionClip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/NKGSlate.ParadoxNotionExtension.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/NKGSlate.Runtime.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlXpmMAlMnMtSAUYZbVSjLGFcK" />
@@ -60,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629034337506</updated>
-      <workItem from="1629034341127" duration="348000" />
+      <workItem from="1629034341127" duration="5033000" />
     </task>
     <servers />
   </component>

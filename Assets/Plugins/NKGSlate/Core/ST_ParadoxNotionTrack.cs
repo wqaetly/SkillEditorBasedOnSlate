@@ -7,7 +7,7 @@
 using Slate;
 
 
-namespace NKGSlate.Editor
+namespace NKGSlate
 {
     [Name("Skill Track")]
     [Description("技能Track")]

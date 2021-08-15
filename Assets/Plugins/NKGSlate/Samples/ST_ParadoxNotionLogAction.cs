@@ -11,7 +11,7 @@ using Sirenix.OdinInspector;
 using Slate;
 using UnityEngine;
 
-namespace NKGSlate.Editor.Sample
+namespace NKGSlate.Sample
 {
     [Attachable(typeof(ST_ParadoxNotionTrack))]
     [Description("打印一条信息")]

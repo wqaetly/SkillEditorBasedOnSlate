@@ -9,7 +9,7 @@ using Sirenix.OdinInspector;
 using Slate;
 using UnityEngine;
 
-namespace NKGSlate.Editor
+namespace NKGSlate
 {
     /// <summary>
     /// 表现在Slate编辑器中的Action基类
@@ -30,19 +30,5 @@ namespace NKGSlate.Editor
         /// 绑定的数据，用于数据预览和导出
         /// </summary>
         [BoxGroup("绑定的数据", CenterLabel = true)] [HideLabel] public ST_DirectableData BindingDate;
-
-#if UNITY_EDITOR
-
-        /// <summary>
-        /// 初始化绑定数据
-        /// </summary>
-        [Button("初始化绑定数据", 35), GUIColor(0.78f, 0.23f, 0.56f)]
-        public void InitBingdingData()
-        {
-            BindingDate.RelativelyStartTime = (long) (this.startTime * 1000);
-            BindingDate.RelativelyEndTime = (long) (this.endTime * 1000);
-        }
-
-#endif
     }
 }
