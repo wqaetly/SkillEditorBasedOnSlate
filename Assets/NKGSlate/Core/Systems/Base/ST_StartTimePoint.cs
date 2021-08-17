@@ -28,13 +28,13 @@ namespace NKGSlate.Runtime
             {
                 if (HasTrigger) return;
                 HasTrigger = true;
-                GetTarget.Enter();
+                GetTarget.Enter(currentFrame);
             }
         }
 
         public void Update(uint currentFrame, uint previousFrame)
         {
-            if (currentFrame >= TriggerFrame && currentFrame < GetTarget.EndFrame)
+            if (currentFrame >= TriggerFrame && currentFrame <= GetTarget.EndFrame)
                 GetTarget.Update(currentFrame, previousFrame);
         }
     }

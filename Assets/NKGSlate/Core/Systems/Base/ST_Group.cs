@@ -24,9 +24,9 @@ namespace NKGSlate.Runtime
             return OnInitialize();
         }
 
-        void ST_IDirectable.Enter()
+        void ST_IDirectable.Enter(uint currentFrame)
         {
-            OnEnter();
+            OnEnter(currentFrame);
         }
 
         void ST_IDirectable.Update(uint currentFrame, uint previousFrame)
@@ -44,7 +44,7 @@ namespace NKGSlate.Runtime
             return true;
         }
 
-        public virtual void OnEnter()
+        public virtual void OnEnter(uint currentFrame)
         {
         }
 

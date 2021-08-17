@@ -6,6 +6,8 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace NKGSlate.Runtime
@@ -15,6 +17,7 @@ namespace NKGSlate.Runtime
         public static Dictionary<Type, Type> TypeInfos = new Dictionary<Type, Type>()
         {
             {typeof(ST_LogActionData), typeof(ST_LogAction)},
+            {typeof(ST_EventData), typeof(ST_Event)},
         };
 
         public ST_Director Director = new ST_Director();
@@ -22,15 +25,9 @@ namespace NKGSlate.Runtime
 
         private ST_CutSceneData DeserializeFromFile()
         {
-            ST_CutSceneData sceneData = new ST_CutSceneData();
-            ST_GroupData stGroupData = new ST_GroupData() {RelativelyStartTime = 0, RelativelyEndTime = 20000};
-            ST_TrackData stTrackData = new ST_TrackData() {RelativelyStartTime = 2000, RelativelyEndTime = 15000};
-
-            stTrackData.ActionDatas.Add(new ST_LogActionData()
-                {RelativelyStartTime = 5000, RelativelyEndTime = 10000, LogInfo = "测试"});
-            stGroupData.TrackDatas.Add(stTrackData);
-            sceneData.GroupDatas.Add(stGroupData);
-
+            ST_CutSceneData sceneData =
+                SerializationUtility.DeserializeValue<ST_CutSceneData>(
+                    File.ReadAllBytes($"Assets/NKGSlate/Sample/Sample.bytes"), DataFormat.Binary);
             return sceneData;
         }
 

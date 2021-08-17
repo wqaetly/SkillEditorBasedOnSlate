@@ -15,7 +15,7 @@ namespace NKGSlate.Runtime
         uint EndFrame { get; set; }
 
         bool Initialize(uint currentFrame, ST_DirectableData stDirectableData);
-        void Enter();
+        void Enter(uint currentFrame);
         void Update(uint currentFrame, uint previousFrame);
         void Exit();
     }

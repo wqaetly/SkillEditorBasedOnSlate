@@ -60,6 +60,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3433067734147873839}
   - component: {fileID: 707794664485419555}
+  - component: {fileID: 2987883370012525629}
+  - component: {fileID: 3313069734008688106}
   m_Layer: 0
   m_Name: ST_Paradox Notion Track
   m_TagString: Untagged
@@ -97,8 +99,92 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _active: 1
   _isLocked: 0
-  _actionClips: []
+  _actionClips:
+  - {fileID: 2987883370012525629}
+  - {fileID: 3313069734008688106}
   _customHeight: 300
+--- !u!114 &2987883370012525629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718295359046027422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce04bd71124f9285122667727cbff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BindingDate
+      Entry: 7
+      Data: 0|NKGSlate.Runtime.ST_EventData, NKGSlate_Runtime
+    - Name: RelativelyStartTime
+      Entry: 3
+      Data: 1000
+    - Name: RelativelyEndTime
+      Entry: 3
+      Data: 1000
+    - Name: EventInfo
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u629B\u51FA\u4E8B\u4EF61"
+    - Name: 
+      Entry: 8
+      Data: 
+  _startTime: 1
+  _animationData:
+    _animatedParameters: []
+  m_Originlength: 0
+  ActionName: 
+--- !u!114 &3313069734008688106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718295359046027422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce04bd71124f9285122667727cbff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BindingDate
+      Entry: 7
+      Data: 0|NKGSlate.Runtime.ST_EventData, NKGSlate_Runtime
+    - Name: RelativelyStartTime
+      Entry: 3
+      Data: 2500
+    - Name: RelativelyEndTime
+      Entry: 3
+      Data: 2500
+    - Name: EventInfo
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u629B\u51FA\u4E8B\u4EF62"
+    - Name: 
+      Entry: 8
+      Data: 
+  _startTime: 2.5
+  _animationData:
+    _animatedParameters: []
+  m_Originlength: 0
+  ActionName: 
 --- !u!1 &1593422085259153402
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +195,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1593422085259153396}
   - component: {fileID: 1593422085259153397}
-  - component: {fileID: 1593422085259153399}
   m_Layer: 0
   m_Name: SkillEntry
   m_TagString: Untagged
@@ -157,20 +242,8 @@ MonoBehaviour:
   - {fileID: 7301745836361793244}
   - {fileID: 3917698563345150254}
   _length: 20
-  _viewTimeMin: -0.21795821
-  _viewTimeMax: 8.484346
---- !u!114 &1593422085259153399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593422085259153402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cdeeb8373d04c4097428a2101015d45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _viewTimeMin: -0.8264693
+  _viewTimeMax: 4.173716
 --- !u!1 &1593422085297015352
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1354645478575376569}
   - component: {fileID: 1532472854707732089}
+  - component: {fileID: 2211645508795588978}
   m_Layer: 0
   m_Name: ST_Paradox Notion Track
   m_TagString: Untagged
@@ -299,8 +373,51 @@ MonoBehaviour:
   _color: {r: 1, g: 1, b: 1, a: 1}
   _active: 1
   _isLocked: 0
-  _actionClips: []
+  _actionClips:
+  - {fileID: 2211645508795588978}
   _customHeight: 300
+--- !u!114 &2211645508795588978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2661715524841229854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aefae19b193493eabfd46f7c85da6be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BindingDate
+      Entry: 7
+      Data: 0|NKGSlate.Runtime.ST_LogActionData, NKGSlate_Runtime
+    - Name: RelativelyStartTime
+      Entry: 3
+      Data: 500
+    - Name: RelativelyEndTime
+      Entry: 3
+      Data: 3000
+    - Name: LogInfo
+      Entry: 1
+      Data: "\u6D4B\u8BD5\u6253\u5370\u4FE1\u606F"
+    - Name: 
+      Entry: 8
+      Data: 
+  _startTime: 0.5
+  _animationData:
+    _animatedParameters: []
+  m_Originlength: 0
+  ActionName: 
+  m_Reallength: 2.5000002
 --- !u!1 &2947518905856401721
 GameObject:
   m_ObjectHideFlags: 0

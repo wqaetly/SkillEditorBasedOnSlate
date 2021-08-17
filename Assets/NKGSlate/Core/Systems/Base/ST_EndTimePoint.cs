@@ -25,7 +25,7 @@ namespace NKGSlate.Runtime
 
         public void TriggerForward(uint currentFrame, uint previousFrame)
         {
-            if (currentFrame >= TriggerFrame)
+            if (currentFrame > TriggerFrame)
             {
                 if (HasTrigger) return;
                 HasTrigger = true;

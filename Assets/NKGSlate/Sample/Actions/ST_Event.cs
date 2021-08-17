@@ -10,10 +10,10 @@ namespace NKGSlate.Runtime
 {
     public class ST_Event: ST_Action<ST_EventData>
     {
-        public override void OnEnter()
+        public override void OnEnter(uint currentFrame)
         {
-            base.OnEnter();
-            Debug.LogError($"ST_Event抛出一个事件：{this.BindingData.EventInfo}");
+            base.OnEnter(currentFrame);
+            Debug.LogError($"ST_Event抛出一个事件：{this.BindingData.EventInfo} 帧数：{currentFrame}");
         }
     }
 }

@@ -16,16 +16,16 @@ namespace NKGSlate.Runtime
             return true;
         }
 
-        public override void OnEnter()
+        public override void OnEnter(uint currentFrame)
         {
-            base.OnEnter();
+            base.OnEnter(currentFrame);
             
             Debug.Log($"ST_LogInfo Enter");
         }
 
         public override void OnUpdate(uint currentFrame, uint previousFrame)
         {
-            Debug.Log($"ST_LogInfo: {this.BindingData.LogInfo}");
+            Debug.Log($"ST_LogInfo: {this.BindingData.LogInfo} 帧数：{currentFrame}");
         }
 
         public override void OnExit()

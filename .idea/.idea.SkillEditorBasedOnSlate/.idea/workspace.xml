@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="dd654d8a-9b3b-407b-ad56-21e49dc53d14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_EndTimePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_EndTimePoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_StartTimePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_StartTimePoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Interfaces/ST_IDirectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Interfaces/ST_IDirectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SkillEntry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SkillEntry.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Samples/ST_ParadoxNotionLogAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Samples/ST_ParadoxNotionLogAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SlateEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SlateEntry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Actions/TimelineActions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F90BA771-B324-4C39-AA36-6B8C47EAC64A/18/e86cdc94/SerializationUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/treeview/Snapping/ISnappable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Signals/SignalEmitterInspector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,27 +70,31 @@
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Datas/Base/ST_DirectableData.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/NKGSlate.ParadoxNotionExtension.asmdef" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/NKGSlate.Runtime.asmdef" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83DC95E0-FA46-4D27-B100-E7976BE3EF6E/44/9648c64a/OdinEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionGroup.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneGroupInspector.cs" />
       <option value="$PROJECT_DIR$/README.md" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_EventData.cs" />
-      <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Samples/ST_ParadoxNotionEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Partial Editor/CutsceneUtility.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_AParadoxNotionSlateActionBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Samples/ST_ParadoxNotionLogAction.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/ActionClipInspector.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Framework/ActionClip.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/SlateEntry.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Interfaces/ST_IDirectable.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_EndTimePoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_StartTimePoint.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlXpmMAlMnMtSAUYZbVSjLGFcK" />
@@ -128,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629034337506</updated>
       <workItem from="1629034341127" duration="8038000" />
-      <workItem from="1629203740357" duration="8951000" />
+      <workItem from="1629203740357" duration="11146000" />
     </task>
     <servers />
   </component>

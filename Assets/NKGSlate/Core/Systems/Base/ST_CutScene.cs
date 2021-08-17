@@ -24,7 +24,7 @@ namespace NKGSlate.Runtime
             return OnInitialize(currentFrame);
         }
 
-        public void Enter()
+        public void Enter(uint currentFrame)
         {
 
         }
@@ -44,7 +44,7 @@ namespace NKGSlate.Runtime
             return true;
         }
 
-        public virtual void OnEnter()
+        public virtual void OnEnter(uint currentFrame)
         {
         }
 
