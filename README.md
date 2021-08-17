@@ -9,6 +9,7 @@
 ## 功能列表
 
 - [x] 基于帧同步的技能系统运行时
+- [x] 重写Slate创建Group界面代码 
 - [ ] 技能数据的编辑与导出
 - [ ] 测试用例
 
@@ -95,3 +96,6 @@ void ShowGroupsAndTracksList(Rect leftRect) {
     GUI.color = Color.white;
 } 
 ```
+现在支持从搜索栏左侧的加号按钮新增Group
+![image](https://user-images.githubusercontent.com/35335061/129744492-0dceddb1-d5d3-457e-aac3-f32bbd8f362e.png)
+![image](https://user-images.githubusercontent.com/35335061/129744543-807f9024-be36-484d-8d0d-35df9cf4136a.png)
