@@ -11,7 +11,7 @@ namespace NKGSlate
 {
     [Name("Skill Track")]
     [Description("技能Track")]
-    [Attachable(typeof(DirectorGroup))]
+    [Attachable(typeof(ST_ParadoxNotionGroup))]
     public class ST_ParadoxNotionTrack: CutsceneTrack
     {
     }
