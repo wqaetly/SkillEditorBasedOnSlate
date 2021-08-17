@@ -16,6 +16,38 @@
 - [x] 技能数据的编辑与导出
 - [x] 测试用例
 
+## 使用说明
+
+在Scene场景新建一个游戏物体，并添加图中组件
+
+![image](https://user-images.githubusercontent.com/35335061/129765453-cb24044a-52d4-49eb-9326-b4db06a04b37.png)
+
+主要功能为编辑数据和导出数据
+
+![image](https://user-images.githubusercontent.com/35335061/129765509-077f38ac-d672-42ff-9076-07446ea4f18e.png)
+
+新建一个Skil Group
+
+![image](https://user-images.githubusercontent.com/35335061/129765653-65da6ce7-a542-4f2d-b499-cda41b586b33.png)
+
+新建Action
+
+![image](https://user-images.githubusercontent.com/35335061/129765701-73b0d778-94bc-46df-8dd2-1a61cf907a6f.png)
+
+选中Action即可在Inspector预览和编辑数据
+
+![image](https://user-images.githubusercontent.com/35335061/129765819-c52dae7f-dc20-4717-8eda-7b87041507b1.png)
+
+点击导出数据
+
+![image](https://user-images.githubusercontent.com/35335061/129765861-ce8f6632-4fde-468f-b2f9-9e4fbd56537a.png)
+
+在Scene场景新建一个游戏物体，并为其添加图中组件
+
+![image](https://user-images.githubusercontent.com/35335061/129765931-97d830c0-9ce5-4129-aa5a-63412260eda7.png)
+
+运行游戏，回车键为重新执行技能，空格键为暂停/恢复技能运行
+
 ## 更改内容
 
 下列更改内容需要您手动将链接中的文件替换到Slate插件中
