@@ -1,6 +1,8 @@
 # SkillEditorBasedOnSlate
 基于ParadoxNotion Slate的帧同步技能编辑器，博客链接：[ParadoxNotion-Slate学习笔记与拓展计划](https://www.lfzxb.top/unity-slate-study-and-extendplan/)
 
+本项目只作为一个最小使用案例，工业级的使用案例请参见：[基于ET框架致敬LOL的Moba游戏，包含完整的客户端与服务端交互，热更新，基于双端行为树的技能系统，更多精彩等你发现！](https://gitee.com/NKG_admin/NKGMobaBasedOnET)
+
 项目使用了两款插件，请自行购买并导入Assets/Plugins/目录中
 
  - [ParadoxNotion-Slate](https://slate.paradoxnotion.com/)
