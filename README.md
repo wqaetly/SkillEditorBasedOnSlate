@@ -97,5 +97,6 @@ void ShowGroupsAndTracksList(Rect leftRect) {
 } 
 ```
 现在支持从搜索栏左侧的加号按钮新增Group
+
 ![image](https://user-images.githubusercontent.com/35335061/129744492-0dceddb1-d5d3-457e-aac3-f32bbd8f362e.png)
 ![image](https://user-images.githubusercontent.com/35335061/129744543-807f9024-be36-484d-8d0d-35df9cf4136a.png)
