@@ -25,7 +25,7 @@ namespace NKGSlate.Runtime
 
         public override void OnUpdate(uint currentFrame, uint previousFrame)
         {
-            Debug.Log($"ST_LogInfo: currentFrame : {currentFrame} previousFrame: {previousFrame}");
+            Debug.Log($"ST_LogInfo: {this.BindingData.LogInfo}");
         }
 
         public override void OnExit()
