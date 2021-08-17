@@ -18,14 +18,6 @@ namespace NKGSlate.Sample
     [Name("打印信息")]
     public class ST_ParadoxNotionLogAction: ST_AParadoxNotionSlateActionBase
     {
-        [SerializeField] [HideInInspector] private float m_Reallength = 1;
-
-        public override float length
-        {
-            get { return m_Reallength; }
-            set { m_Reallength = value; }
-        }
-
         protected override void OnCreate()
         {
             base.OnCreate();

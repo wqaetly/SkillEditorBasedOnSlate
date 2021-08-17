@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd654d8a-9b3b-407b-ad56-21e49dc53d14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_EndTimePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_EndTimePoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_StartTimePoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_StartTimePoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Interfaces/ST_IDirectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Interfaces/ST_IDirectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/Actions/ST_LogAction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SkillEntry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SkillEntry.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SlateEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NKGSlate/Sample/SlateEntry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629034337506</updated>
       <workItem from="1629034341127" duration="8038000" />
-      <workItem from="1629203740357" duration="11146000" />
+      <workItem from="1629203740357" duration="11555000" />
     </task>
     <servers />
   </component>

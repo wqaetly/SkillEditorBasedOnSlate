@@ -16,7 +16,7 @@ namespace NKGSlate
     /// </summary>
     public abstract class ST_AParadoxNotionSlateActionBase : ActionClip
     {
-        [SerializeField] [HideInInspector] private float m_Originlength;
+        [SerializeField] [HideInInspector] private float m_Originlength = 1;
 
         public override float length
         {

@@ -15,6 +15,11 @@ namespace NKGSlate.Sample
     [Name("抛出事件")]
     public class ST_ParadoxNotionEvent: ST_AParadoxNotionSlateActionBase
     {
+        public override float length
+        {
+            get { return 0; }
+        }
+
         protected override void OnCreate()
         {
             base.OnCreate();
