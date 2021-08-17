@@ -29,3 +29,69 @@ public class CutsceneInspector : OdinEditor
 abstract public class ActionClip : SerializedMonoBehaviour, IDirectable, IKeyable
 ```
 
+出于个人喜好和可拓展性的考虑，重写了CutSceneEditor部分代码
+
+```csharp
+//left - the groups and tracks info and option per group/track
+void ShowGroupsAndTracksList(Rect leftRect) {
+    var e = Event.current;
+    //allow resize list width
+    var scaleRect = new Rect(leftRect.xMax - 4, leftRect.yMin, 4, leftRect.height);
+    AddCursorRect(scaleRect, MouseCursor.ResizeHorizontal);
+    if ( e.type == EventType.MouseDown && e.button == 0 && scaleRect.Contains(e.mousePosition) ) { isResizingLeftMargin = true; e.Use(); }
+    if ( isResizingLeftMargin ) { LEFT_MARGIN = e.mousePosition.x + 2; }
+    if ( e.rawType == EventType.MouseUp ) { isResizingLeftMargin = false; }
+    GUI.enabled = cutscene.currentTime <= 0;
+    //starting height && search.
+    var nextYPos = FIRST_GROUP_TOP_MARGIN;
+    var wasEnabled = GUI.enabled;
+    GUI.enabled = true;
+    var collapseAllRect = Rect.MinMaxRect(leftRect.x + 2, leftRect.y + 2, 18, leftRect.y + 16);
+    var searchRect = Rect.MinMaxRect(collapseAllRect.x + 18, leftRect.y + 4, leftRect.xMax - 32, leftRect.y + 20 - 1);
+    var searchCancelRect = Rect.MinMaxRect(searchRect.xMax, searchRect.y, leftRect.xMax - 16, searchRect.yMax);
+    var createGroupRect = new Rect(searchCancelRect.xMax, searchCancelRect.yMin + 2, 10, 10);
+    var anyExpanded = cutscene.groups.Any(g => !g.isCollapsed);
+    AddCursorRect(collapseAllRect, MouseCursor.Link);
+    GUI.color = Color.white.WithAlpha(0.5f);
+    if ( GUI.Button(collapseAllRect, anyExpanded ? "▼" : "►", (GUIStyle)"label") ) {
+        foreach ( var group in cutscene.groups ) {
+            group.isCollapsed = anyExpanded;
+        }
+    }
+    GUI.color = Color.white;
+    searchString = EditorGUI.TextField(searchRect, searchString, (GUIStyle)"ToolbarSeachTextField");
+    if ( GUI.Button(searchCancelRect, string.Empty, (GUIStyle)"ToolbarSeachCancelButton") ) {
+        searchString = string.Empty;
+        GUIUtility.keyboardControl = 0;
+    }
+    if (GUI.Button(createGroupRect, Slate.Styles.plusIcon, GUIStyle.none))
+    {
+        GenericMenu genericMenu = new GenericMenu();
+        genericMenu.AddItem(new GUIContent("Add Actor Group"), false, data => {                 
+            var newGroup = cutscene.AddGroup<ActorGroup>(null).AddTrack<ActorActionTrack>();
+            CutsceneUtility.selectedObject = newGroup;}, null);
+        genericMenu.AddItem(new GUIContent("Add Skill Group"), false, data => {                 
+            var newGroup = cutscene.AddGroup<ST_ParadoxNotionGroup>(null).AddTrack<ST_ParadoxNotionTrack>();
+            CutsceneUtility.selectedObject = newGroup;}, null);
+        genericMenu.ShowAsContext();
+    }
+    GUI.enabled = wasEnabled;
+    //begin area for left Rect
+    GUI.BeginGroup(leftRect);
+    ShowListGroups(e, ref nextYPos);
+    GUI.EndGroup();
+    //store total height required
+    totalHeight = nextYPos;
+    //Simple button to add empty group for convenience
+    var addButtonY = totalHeight + TOP_MARGIN + TOOLBAR_HEIGHT + 20;
+    var addRect = Rect.MinMaxRect(leftRect.xMin + 10, addButtonY, leftRect.xMax - 10, addButtonY + 20);
+    GUI.color = Color.white.WithAlpha(0.5f);
+    //clear picks
+    if ( e.rawType == EventType.MouseUp ) {
+        pickedGroup = null;
+        pickedTrack = null;
+    }
+    GUI.enabled = true;
+    GUI.color = Color.white;
+} 
+```

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd654d8a-9b3b-407b-ad56-21e49dc53d14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkillEditorBasedOnSlate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +50,16 @@
       <option value="$PROJECT_DIR$/Assets/NKGSlate/NKGSlate.Runtime.asmdef" />
       <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionCutScene.cs" />
-      <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Action.cs" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Group.cs" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_CutScene.cs" />
       <option value="$PROJECT_DIR$/Assets/NKGSlate/Core/Systems/Base/ST_Track.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionTrack.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneGroupInspector.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83DC95E0-FA46-4D27-B100-E7976BE3EF6E/44/9648c64a/OdinEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/NKGSlate/Core/ST_ParadoxNotionGroup.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneGroupInspector.cs" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wlXpmMAlMnMtSAUYZbVSjLGFcK" />
@@ -106,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629034337506</updated>
       <workItem from="1629034341127" duration="8038000" />
-      <workItem from="1629203740357" duration="4364000" />
+      <workItem from="1629203740357" duration="4717000" />
     </task>
     <servers />
   </component>
